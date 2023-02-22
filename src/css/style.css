@@ -1,0 +1,47 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #282A36;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 2.75rem;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 240px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.cell{
+    width: 75px;
+    height: 65px;
+    font-size: 30pt;
+    margin: 4px 2px;
+    font-weight: 300;
+    margin-top: 10px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: cadetblue;
+    cursor: pointer;
+}
+
+.cell:hover{
+    filter: brightness(.8);
+}
